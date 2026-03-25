@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1032px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.mainvisual img {
+  width: 100%;
+  height: 843px;
+  object-fit: cover;
+}
+
+#header {
+  position: relative;
+  height: 80px;
+  background: #F0F0F0;
+}
+
+#header .inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#header .logo img {
+  width: 100px;
+}
+
+#header nav {
+  margin-left: 20px;
+}
+
+#header nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+#header nav li {
+  font-size: 0.88rem;
+}
+
+#header .wrapper {
+  max-width: none;
+  padding: 0 350px;
+}
+
+
+#header .contact {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 80px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+}
+
+
+
+.section-title {
+  font-size: 2.3rem;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+
+
+.section-title .sub-title {
+  display: block;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1px;
+  background: #000;
+  margin-top: 50px; 
+  transform: translateY(-4px)
+}
+
+#news {
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+
+#news .list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#news li {
+  width: 31%;
+  border-left: 1px solid #aaa;
+  padding-left: 18px;
+  box-sizing: border-box;
+}
+
+#news li:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
+#news .date-area {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+#news time {
+  font-size: 0.85rem;
+  margin-right: 10px;
+}
+
+#news .date-area span {
+  font-size: 0.7rem;
+  background: #000;
+  color: #fff;
+  padding: 2px 6px;
+  line-height: 1;
+}
+
+#news p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
